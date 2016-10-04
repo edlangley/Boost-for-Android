@@ -145,15 +145,15 @@ fi
 # a debug, in which case it's easy for a developer to comment out
 # this code.
 
-if [ -d "$PROGDIR/$BOOST_DIR" ]; then
-	echo "Cleaning: $BOOST_DIR"
-	rm -f -r $PROGDIR/$BOOST_DIR
-fi
+#if [ -d "$PROGDIR/$BOOST_DIR" ]; then
+#	echo "Cleaning: $BOOST_DIR"
+#	rm -f -r $PROGDIR/$BOOST_DIR
+#fi
 
-if [ -d "$PROGDIR/$BUILD_DIR" ]; then
-	echo "Cleaning: $BUILD_DIR"
-	rm -f -r $PROGDIR/$BUILD_DIR
-fi
+#if [ -d "$PROGDIR/$BUILD_DIR" ]; then
+#	echo "Cleaning: $BUILD_DIR"
+#	rm -f -r $PROGDIR/$BUILD_DIR
+#fi
 
 
 AndroidNDKRoot=$PARAMETERS
